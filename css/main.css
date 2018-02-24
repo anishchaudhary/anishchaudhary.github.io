@@ -1,33 +1,33 @@
 /*=================custom styles================== */
 @font-face {
     font-family: 'aaarghnormal';
-    src: url('aaargh-webfont.eot');
-    src: url('aaargh-webfont.eot?#iefix') format('embedded-opentype'),
-         url('aaargh-webfont.woff') format('woff'),
-         url('aaargh-webfont.ttf') format('truetype'),
-         url('aaargh-webfont.svg#aaarghnormal') format('svg');
+    src: url('../fonts/aaargh-webfont.eot');
+    src: url('../fonts/aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aaargh-webfont.woff') format('woff'),
+         url('../fonts/aaargh-webfont.ttf') format('truetype'),
+         url('../fonts/aaargh-webfont.svg#aaarghnormal') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'aldridgescriptsskregular';
-    src: url('aldrss-webfont.eot');
-    src: url('aldrss-webfont.eot?#iefix') format('embedded-opentype'),
-         url('aldrss-webfont.woff') format('woff'),
-         url('aldrss-webfont.ttf') format('truetype'),
-         url('aldrss-webfont.svg#aldridgescriptsskregular') format('svg');
+    src: url('../fonts/aldrss-webfont.eot');
+    src: url('../fonts/aldrss-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/aldrss-webfont.woff') format('woff'),
+         url('../fonts/aldrss-webfont.ttf') format('truetype'),
+         url('../fonts/aldrss-webfont.svg#aldridgescriptsskregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'bankgothic_lt_btlight';
-    src: url('bnkgothl-webfont.eot');
-    src: url('bnkgothl-webfont.eot?#iefix') format('embedded-opentype'),
-         url('bnkgothl-webfont.woff') format('woff'),
-         url('bnkgothl-webfont.ttf') format('truetype'),
-         url('bnkgothl-webfont.svg#bankgothic_lt_btlight') format('svg');
+    src: url('../fonts/bnkgothl-webfont.eot');
+    src: url('../fonts/bnkgothl-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bnkgothl-webfont.woff') format('woff'),
+         url('../fonts/bnkgothl-webfont.ttf') format('truetype'),
+         url('../fonts/bnkgothl-webfont.svg#bankgothic_lt_btlight') format('svg');
     font-weight: normal;
     font-style: normal;
 }
