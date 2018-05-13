@@ -42,7 +42,7 @@ body {background:url(../img/home-bg.png) repeat top center; color:#fff; font-fam
 .logo-container {margin-top:20px; text-align:left;}
 /*common css ends here*/
 
-#main-page {min-height:900px;}
+#main-page {min-height:900px;overflow:hidden;}
 .main-page-logo, .tech-page-logo {/*background-position:0px 0px;*/background:url(../img/web-logo.png) no-repeat; width:175px; height:65px; display:inline-block;}
 .main-text {font-family: 'bankgothic_lt_btlight'; font-size:30px; line-height:50px; text-transform:uppercase; margin-top:200px;}
 .green {color:#b3c658;}
@@ -52,7 +52,7 @@ body {background:url(../img/home-bg.png) repeat top center; color:#fff; font-fam
 .brand {display:none;}
 /*main page css ends here*/
 
-#technology {background:#809325; min-height:900px; text-align:center;}
+#technology {background:#809325; min-height:900px; text-align:center;overflow:hidden;}
 /*.tech-page-logo {background-position:0px -101px; width:175px; height:71px;}*/
 #technology .page-header {font-family:'aaarghnormal'; font-weight:normal; font-size:40px; border-bottom:2px solid #93a82e; color:#000; padding:0 0 12px; display:inline-block; margin:135px 0 150px;}
 .tech-header {color:#ffde00; font-size:20px; margin:2px 0;}
@@ -65,7 +65,7 @@ body {background:url(../img/home-bg.png) repeat top center; color:#fff; font-fam
 .ecommerce-icn {background-position:-387px 0px;}
 /*technology page css ends here*/
 
-#portfolio {background:#ffde00; min-height:900px; text-align:center;}
+#portfolio {background:#ffde00; min-height:900px; text-align:center;overflow:hidden;}
 .portfolio-page-logo {/*background-position:0px -202px; */background:url(../img/web-logo-two.png) no-repeat; width:175px; height:65px; display:inline-block;}
 #portfolio .page-header {font-weight:normal; font-size:40px; border-bottom:none; color:#000; display:inline-block; margin:100px 0 40px;}
 .portfolio-container {text-align:center; margin-bottom:40px;}
@@ -75,7 +75,7 @@ body {background:url(../img/home-bg.png) repeat top center; color:#fff; font-fam
 .portfolio-title a:hover {color:#fff; text-decoration:underline;}
 /*portfolio page css ends here*/
 
-#blog {background:#fff; min-height:900px; text-align:center;}
+#blog {background:#fff; min-height:900px; text-align:center;overflow:hidden;}
 #blog .page-header {font-weight:normal; font-size:40px; border-bottom:none; color:#000; display:inline-block; margin:100px 0 40px;}
 .blog-page-logo {background-position:0px -202px; width:175px; height:71px; margin-bottom:25px;}
 #blog .blog-title {font-weight:normal; font-size:28px; border-bottom:none; color:#212121;}
@@ -84,9 +84,9 @@ body {background:url(../img/home-bg.png) repeat top center; color:#fff; font-fam
 .blog-read-more {display:block; text-align:right;}
 .blog-read-more a {color:#212121; font-size:16px; text-decoration:underline;}
 .blog-read-more a:hover {text-decoration:none;}
-/*Blog page css ends here*/
+/*blog page css ends here*/
 
-#contact {min-height:900px; text-align:center;}
+#contact {min-height:900px; text-align:center;overflow:hidden;}
 #contact .page-header {font-weight:normal; font-size:40px; border-bottom:none; color:#fff; display:inline-block; margin:135px auto 40px;}
 #contact p {font-size:16px; color:#fff; margin-bottom:15px;}
 #contact p:first-child {margin-bottom:25px; line-height:26px;}
@@ -98,7 +98,7 @@ body {background:url(../img/home-bg.png) repeat top center; color:#fff; font-fam
 .facebook-icn {background-position:-327px -101px;}
 .twitter-icn {background-position:-387px -101px;}
 .linkedin-icn {background-position:-447px -101px;}
-/*Contact page css ends here*/
+/*contact page css ends here*/
 
 /*responsive css*/
 @media(max-width:979px) {
@@ -112,7 +112,7 @@ body {padding:0;}
 .navbar .btn, .navbar .btn-group {margin:10px 10px 0 0;}
 .portfolio-content, .portfolio-title {width:166px;}
 .navbar .brand {font-weight:bold;}
-	}
+}
 	
 @media(max-width:480px) {
 #main-page {min-height:500px; padding-bottom:50px;}
@@ -122,4 +122,4 @@ body {padding:0;}
 #technology .tech-container {margin-bottom:30px;}
 .main-text {margin-top:100px; font-size:24px; line-height:45px;}
 #blog .blog-title {font-size:22px;}
-	}
+}
